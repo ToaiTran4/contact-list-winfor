@@ -35,6 +35,7 @@
             this.btnLuu = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.txtEmail = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtHoten
@@ -75,7 +76,7 @@
             // 
             // btnLuu
             // 
-            this.btnLuu.Location = new System.Drawing.Point(238, 234);
+            this.btnLuu.Location = new System.Drawing.Point(256, 293);
             this.btnLuu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnLuu.Name = "btnLuu";
             this.btnLuu.Size = new System.Drawing.Size(92, 38);
@@ -100,11 +101,21 @@
             this.txtEmail.Size = new System.Drawing.Size(209, 22);
             this.txtEmail.TabIndex = 6;
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(76, 224);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(125, 16);
+            this.label4.TabIndex = 7;
+            this.label4.Text = "Thoong sin bo sung";
+            // 
             // AddContactForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(711, 360);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btnLuu);
@@ -129,5 +140,6 @@
         private System.Windows.Forms.Button btnLuu;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtEmail;
+        private System.Windows.Forms.Label label4;
     }
 }
